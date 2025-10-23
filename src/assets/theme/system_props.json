@@ -1,0 +1,35 @@
+{
+  "os_name": "Blood_glass OS",
+  "version": "1.0.0 (Crimson)",
+  
+  "ui_theming": {
+    "default_mode": "dark",
+    "color_palette": {
+      "accent_primary": "#BF0A30",         // Escarlate (Blood)
+      "background_base": "#0A0A0E",       // Preto Ultra-Escuro
+      "text_primary": "#FFFFFF",
+      "text_secondary": "#AFAFB5"
+    },
+    "glass_effect": {
+      "blur_strength": "24px",            // Força do desfoque
+      "transparency_alpha": "0.85",       // Opacidade (1.0 = opaco, 0.0 = transparente)
+      "tint_color": "#BF0A301A"           // Toque de escarlate no vidro (RGBA)
+    },
+    "typography": {
+      "system_font": "System-UI, sans-serif",
+      "body_size": "16px"
+    },
+    "corner_radius": "14px"               // Arredondamento padrão
+  },
+  
+  "icon_set": {
+    "name": "Blood_symbols",
+    "default_scale": "24px",
+    "icon_list": [
+      { "id": "home", "file": "ic_house_fill.svg" },
+      { "id": "settings", "file": "ic_gearshape.svg" },
+      { "id": "back", "file": "ic_chevron_left.svg" },
+      { "id": "files", "file": "ic_folder_fill.svg" }
+    ]
+  }
+}
